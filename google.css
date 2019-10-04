@@ -3,7 +3,6 @@
 	* Author:  Nass O
 	* Version: v2.1.8+
 */
-
 :root {
 	--main-bg-col: #101010;
 	--card-bg-col: #151515;
@@ -1692,14 +1691,14 @@ a.gb_Ab:hover,
 .gb_rb.gb_fa.gb_g,
 .gb_da {
 	background-color: #ff7171 !important;
-	border-color: var(--border-main-col)3337d !important;
+	border-color: var(--border-main-col) !important;
 	color: #b1b1b1 !important;
 	box-shadow: 3px 3px 10px black;
 }
 
 .gb_Ea,
 #gb a.gb_Ea.gb_Ea {
-	border-color: var(--border-main-col)3337d;
+	border-color: var(--border-main-col);
 }
 
 .gb_qb {
