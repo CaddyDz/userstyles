@@ -884,3 +884,7 @@ img[src*="../res/wifi_0.png"] {
 .main_menu ul li a:active {
 	background: black no-repeat left top;
 }
+
+#footer {
+	display: none;
+}
