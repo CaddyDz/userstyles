@@ -13,6 +13,10 @@
 	display: none;
 }
 
+.center_box {
+	background: none;
+}
+
 * {
 	font-family: "Open Sans" !important
 }
