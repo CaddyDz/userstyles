@@ -5,8 +5,9 @@
 		url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
-.head_dim head_filter {
-	background-color: #000;
+#header_turnbg {
+	background: unset;
+	background-color: #181818 !important;
 }
 
 .logo {
