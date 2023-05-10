@@ -1,0 +1,22 @@
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: black;
+    }
+    p,
+    .text-gray-700 {
+        color: white;
+    }
+    /* Mostly just response status examples in docs */
+    code {
+        color: black;
+    }
+}
+/* Hide branding slogan, partners and the annoying announcement banner */
+#app > div > div.text-md.flex.flex-wrap.items-center.justify-center.gap-3.bg-\[\#fde9b1\].px-6.py-4.font-medium,
+#app > div > div.text-white > div > header > a,
+#app > div > div.text-white > div > header > div.hidden.items-center.text-white.md\:flex > a,
+#app > div > div.mx-auto.flex.max-w-6xl.py-12.md\:px-12.md\:py-24.xl\:px-0 > div.relative.-mt-8.hidden.w-44.flex-shrink-0.xl\:block > div > div.mb-6.text-xs.font-bold.uppercase.tracking-widest.text-gray-500,
+#app > div > div.mx-auto.flex.max-w-6xl.py-12.md\:px-12.md\:py-24.xl\:px-0 > div.relative.-mt-8.hidden.w-44.flex-shrink-0.xl\:block > div > a {
+    display: none;
+}
